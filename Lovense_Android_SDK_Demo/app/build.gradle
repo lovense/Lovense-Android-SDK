@@ -6,8 +6,8 @@ android {
         applicationId "com.lovense.sdkdemo"
         minSdkVersion 18
         targetSdkVersion 28
-        versionCode 7
-        versionName "1.0.6"
+        versionCode 10
+        versionName "1.0.9"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -29,6 +29,7 @@ dependencies {
 
     implementation 'com.android.support:recyclerview-v7:28.0.0'
 
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.20'
     implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
